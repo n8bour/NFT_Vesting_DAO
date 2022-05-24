@@ -3,9 +3,9 @@ const projectConfig = {
 
   nftSymbol: "VNFT",
 
-  maxSupply: 10000,
+  maxSupply: 100,
 
-  maxMintAmountPerTxn: 10,
+  maxMintAmountPerTxn: 1,
 
   mintCost: process.env.NODE_ENV === "production" ? 0.01 : 0.01,
 
@@ -38,13 +38,13 @@ const projectConfig = {
 
   contractAddress:
     process.env.NODE_ENV === "production"
-      ? "0x749b46A655763a2c2c7CF252B88D7F9EE95432D2"
-      : "0x749b46A655763a2c2c7CF252B88D7F9EE95432D2",
+      ? "0x336038b39daebF51C8FFA57350F49d9D48D2AAd3"
+      : "0x336038b39daebF51C8FFA57350F49d9D48D2AAd3",
 
   scanUrl:
     process.env.NODE_ENV === "production"
-      ? "https://rinkeby.etherscan.io/address/0x749b46A655763a2c2c7CF252B88D7F9EE95432D2"
-      : "https://rinkeby.etherscan.io/address/0x749b46A655763a2c2c7CF252B88D7F9EE95432D2",
+      ? "https://rinkeby.etherscan.io/address/0x336038b39daebF51C8FFA57350F49d9D48D2AAd3"
+      : "https://rinkeby.etherscan.io/address/0x336038b39daebF51C8FFA57350F49d9D48D2AAd3",
   // : "https://mumbai.polygonscan.com/address/your_mumbai_contract_address",
   // 'https://etherscan.io/address/your_ethereum_contract_address'
   // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'
